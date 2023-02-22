@@ -9,3 +9,7 @@ Deprecated apis contains manifests using deprecated apis as of k8s 1.20+
 ## On demand Kubernetes cluster 
 
 https://killercoda.com/playgrounds/scenario/kubernetes
+
+## How to use 
+
+Navigate to the manifest you are interested in and click on raw (top right) to obtain the absolute path. 

@@ -1,0 +1,6 @@
+- level: Metadata
+  resources:
+  - group: "flowcontrol.apiserver.k8s.io"
+    resources: ["flowschemas"]
+  verbs: ["*"]
+  version: "v1beta2"

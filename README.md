@@ -13,3 +13,7 @@ https://killercoda.com/playgrounds/scenario/kubernetes
 ## How to use 
 
 Navigate to the manifest you are interested in and click on raw (top right) to obtain the absolute path. 
+
+## Deprecated apis migration
+
+https://kubernetes.io/docs/reference/using-api/deprecation-guide/

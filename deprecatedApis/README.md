@@ -18,6 +18,10 @@ Configuration :
 
 https://kubernetes.io/docs/reference/config-api/apiserver-audit.v1/#audit-k8s-io-v1-Policy
 
+Minikube : 
+
+https://minikube.sigs.k8s.io/docs/tutorials/audit-policy/
+
 ## Utilities, cli 
 
 ```

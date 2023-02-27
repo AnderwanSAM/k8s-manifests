@@ -12,6 +12,10 @@ https://mosnotes.com/2021/03/13/k8s-enabling-auditing-logs-step-by-step/
  
  https://signoz.io/blog/kubernetes-audit-logs/
 
+Configuration : 
+
+https://kubernetes.io/docs/reference/config-api/apiserver-audit.v1/#audit-k8s-io-v1-Policy
+
 ## Utilities, cli 
 
 ```

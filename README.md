@@ -34,5 +34,5 @@ GO111MODULE=on go install github.com/prometheus/prom2json/cmd/prom2json@latest
 
 then run : 
 ```
-kubectl get --raw /metrics | prom2json | jq ' .[] | select(.name=="apiserver_requested_deprecated_apis").metrics[].labels '
+kubectl get --raw /metrics | ./prom2json | jq ' .[] | select(.name=="apiserver_requested_deprecated_apis").metrics[].labels '
 ```

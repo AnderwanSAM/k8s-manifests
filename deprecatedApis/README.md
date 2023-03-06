@@ -48,3 +48,16 @@ minikube start --extra-config=apiserver.audit-policy-file=/etc/ssl/certs/audit-p
 kubectl logs kube-apiserver-minikube -n kube-system | grep audit.k8s.io/v1 | grep /apis/flowcontrol.apiserver.k8s.io/v1beta2 
 ```
 
+### Kube api server 
+
+Get current api server pod 
+
+```
+kubectl get pods -n kube-system | grep kube-apiserver
+```
+
+Delete 
+```
+kubectl delete pod <kube-apiserver-pod-name> -n kube-system
+
+```

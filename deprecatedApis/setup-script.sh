@@ -5,7 +5,7 @@ cd /etc/kubernetes/manifests/
 echo "======================="
 echo "sample-no-audit content"
 echo "======================="
-cat /etc/Kubernetes/audit/policy.yaml
+cat /etc/kubernetes/audit/policy.yaml
 echo "======================="
 pwd 
 

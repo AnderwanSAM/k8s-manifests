@@ -75,5 +75,5 @@ kubectl apply -f https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/mai
 ```
 
 ```
-wget https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/main/deprecatedApis/audit-policy-fls-1-29.yaml && cp audit-policy-fls-1-29.yaml  /etc/kubernetes/audit/policy.yaml && cat /etc/kubernetes/audit/policy.yaml
+wget https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/main/deprecatedApis/audit-policy-fls-1-29.yaml && cp audit-policy-fls-1-29.yaml  /etc/kubernetes/audit/policy.yaml && cat /etc/kubernetes/audit/policy.yaml && rm audit-policy-fls-1-29.yaml
 ```

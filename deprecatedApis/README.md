@@ -61,3 +61,11 @@ Delete
 kubectl delete pod <kube-apiserver-pod-name> -n kube-system
 
 ```
+
+
+=====
+
+
+```
+mkdir /etc/kubernetes/audit && sudo  wget https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/main/deprecatedApis/sample-no-audit.yaml && cp sample-no-audit.yaml  /etc/kubernetes/audit/policy.yaml && cat /etc/kubernetes/audit/policy.yaml &&  cd /etc/kubernetes/manifests/
+```

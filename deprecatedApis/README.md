@@ -62,6 +62,10 @@ kubectl delete pod <kube-apiserver-pod-name> -n kube-system
 
 ```
 
+```
+kubectl delete pod kube-apiserver-controlplane -n kube-system
+```
+
 
 =====
 
@@ -77,3 +81,5 @@ kubectl apply -f https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/mai
 ```
 wget https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/main/deprecatedApis/audit-policy-fls-1-29.yaml && cp audit-policy-fls-1-29.yaml  /etc/kubernetes/audit/policy.yaml && cat /etc/kubernetes/audit/policy.yaml && rm audit-policy-fls-1-29.yaml
 ```
+
+

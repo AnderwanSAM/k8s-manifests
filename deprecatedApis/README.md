@@ -84,5 +84,8 @@ wget https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/main/deprecated
 
 ```
 cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration 
+```
 
+```
+cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration | grep \"flowcontrol.apiserver.k8s.io/v1beta2\"
 ```

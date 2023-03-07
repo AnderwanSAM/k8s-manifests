@@ -89,3 +89,11 @@ cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration
 ```
 cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration | grep \"flowcontrol.apiserver.k8s.io/v1beta2\"
 ```
+
+```
+cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration | sed 's/\\//g'
+```
+
+```
+cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration | sed 's/\\//g' | grep flowcontrol.apiserver.k8s.io/v1beta2
+```

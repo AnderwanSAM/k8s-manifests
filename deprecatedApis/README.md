@@ -73,3 +73,7 @@ mkdir /etc/kubernetes/audit && sudo  wget https://raw.githubusercontent.com/Ande
 ```
 kubectl apply -f https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/main/deprecatedApis/flow_schema_1_29.yaml
 ```
+
+```
+wget https://raw.githubusercontent.com/AnderwanSAM/k8s-manifests/main/deprecatedApis/audit-policy-fls-1-29.yaml && cp audit-policy-fls-1-29.yaml  /etc/kubernetes/audit/policy.yaml && cat /etc/kubernetes/audit/policy.yaml
+```

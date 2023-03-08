@@ -97,3 +97,7 @@ cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration | sed 's/\
 ```
 cat audit.log | grep kubectl.kubernetes.io/last-applied-configuration | sed 's/\\//g' | grep flowcontrol.apiserver.k8s.io/v1beta2
 ```
+
+```
+yq eval '.rules += [{"level": "RequestResponse", "resources": [{"group": "$group", "resources": $resources, "version": "$version"}]},{"level": "Metadata", "resources": [{"group": "$group", "resources": $resources, "version": "$version"}]},{"level": "Request", "resources": [{"group": "$group", "resources": $resources, "version": "$version"}]}]' policy.yaml > new_policy.yaml
+```

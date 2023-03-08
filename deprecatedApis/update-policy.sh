@@ -1,5 +1,3 @@
-!/bin/bash
-
 # Define the dynamic values
 group="flowcontrol.apiserver.k8s.io"
 resources="[\"flowschemas\"]"

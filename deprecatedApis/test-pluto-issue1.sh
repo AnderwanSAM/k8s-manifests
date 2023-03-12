@@ -6,3 +6,6 @@ cp pluto /bin/pluto
 git clone https://github.com/HariSekhon/DevOps-Bash-tools bash-tools
 cd bash-tools
 ./pluto_detect_kubectl_dump_objects.sh
+echo "=========================================="
+echo $dumpfile
+cat $dumpfile
